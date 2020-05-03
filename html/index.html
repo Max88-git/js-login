@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commencal Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <img src="../img/Commencal-Logo-Black-400.png" width="400" height="60" alt="Commencal logo">
+        
+        <form onsubmit="return checkForm(this);" action="../html/message.html">
+            <h2>Please sign in</h2>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" size="30" maxlength="255" placeholder="Enter Email">
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" size="30" maxlength="20" placeholder="Enter Password">
+            </div>
+                <input type="submit" name="submit" id="btnmain">
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
