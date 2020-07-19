@@ -2,7 +2,7 @@
 
 A login validation form for one of my favourite cycling companies (Commencal) using regular expressions.
 
-# What I Learned
+# What I Learnt
 
 * How to use HTML and CSS to create a basic login form.
 * How to validate user information.
